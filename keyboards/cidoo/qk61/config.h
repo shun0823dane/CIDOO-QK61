@@ -56,6 +56,9 @@
 
 #define DEBOUNCE 5
 
+/* Bluetooth reports can drop characters when VIA macros type with no delay. */
+#define DYNAMIC_KEYMAP_MACRO_DELAY 10
+
 #ifndef NOP_FUDGE
 #define NOP_FUDGE 0.4
 #endif
